@@ -8,7 +8,11 @@ If you're on Mac, run main/macInstall.bash. If you're on Linux, run main/linuxIn
 # Usage
 Move the pdf of your handwritten work into the same directory as your ipython notebook and name it "hwHand.pdf" (where is the hw assignment number)
 
-Execute the following command: eesubmit
+Execute the following command: 
+
+```
+eesubmit
+```
 
 # Authors and Contributors
 Michael Snowden (@MichaelSnowden) and Dakota Sproch (@ddasnow)
