@@ -1,3 +1,4 @@
+#!/usr/bin/env bash
 git clone https://github.com/DakotaAndMichael/eesubmit.git
 cd eesubmit/main
 echo "What is your OS?"

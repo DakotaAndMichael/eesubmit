@@ -1,3 +1,4 @@
+#!/usr/bin/env bash
 echo -n "Enter Username: "
 read usrName
 
