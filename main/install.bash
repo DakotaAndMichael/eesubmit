@@ -2,7 +2,7 @@ echo -n "Enter Username: "
 read usrName
 
 mkdir ~/.eesubmit
-touch ~/.eesubit/username.txt
+touch ~/.eesubmit/username.txt
 echo "${usrName}" > ~/.eesubmit/username.txt
 
 
