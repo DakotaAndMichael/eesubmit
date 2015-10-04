@@ -5,8 +5,6 @@ then
 	./linuxInstall.bash
 fi
 
-echo "Dakota Sproch and Michael Snowden are the coolest people in the world!"
-
 echo -n "Enter HW number: "
 read hwNum
 
