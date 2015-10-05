@@ -15,6 +15,7 @@ case $os in
     2 )
         ./linuxInstall.bash ;;
     3 )
+		./windowsInstall.bash
         echo "Windows is not yet supported." ;;
     4 )
         echo "Other operating systems are not yet supported." ;;
