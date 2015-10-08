@@ -11,12 +11,11 @@ read os
 
 case $os in
     1 )
-        ./macInstall.bash ;;
+        ./macInstall.bash $1 ;;
     2 )
-        ./linuxInstall.bash ;;
+        ./linuxInstall.bash $1 ;;
     3 )
-		./windowsInstall.bash
-        echo "Windows is not yet supported." ;;
+	./windowsInstall.bash $1 ;;
     4 )
         echo "Other operating systems are not yet supported." ;;
 esac
