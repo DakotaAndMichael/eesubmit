@@ -30,7 +30,7 @@ then
     read uninstallWkhtmltopdf
     if [ ${uninstallWkhtmltopdf} = "y" ];
     then
-        brew uninstall pdfkit --force
+        brew uninstall wkhtmltopdf --force
     fi
 
     echo "eesubmit: Do you want to uninstall homebrew (a package manager for Mac OS)? (y/n)"
