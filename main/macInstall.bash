@@ -51,7 +51,7 @@ else
     echo "wkhtmltopdf installation complete"
 
     echo "Installing pdfkit (a Python package that runs on top of wkhtmltopdf)..."
-    pip install pdfkit
+    sudo pip install pdfkit
     echo "pdfkit installation complete"
 
     echo "Adding a shortcut for eesubmit (this may require your password)..."
