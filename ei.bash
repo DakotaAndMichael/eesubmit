@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
-mkdir ~/.eesubmit-repo
-cd ~/.eesubmit-repo
+mkdir ~/.eesubmit
+cd ~/.eesubmit
 git clone https://github.com/DakotaAndMichael/eesubmit.git 
 cd eesubmit/main
 echo "What is your OS?"
@@ -21,4 +21,4 @@ case $os in
     4 )
         echo "Other operating systems are not yet supported." ;;
 esac
-rm -rf ~/.eesubmit-repo/
+rm -rf ~/.eesubmit
