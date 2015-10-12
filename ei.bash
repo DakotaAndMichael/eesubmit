@@ -15,11 +15,11 @@ read os
 
 case $os in
     1 )
-        ~/.eesubmit/eesubmit/main/./macInstall.bash $1 ;;
+        ~/.eesubmit/main/./macInstall.bash $1 ;;
     2 )
-        ~/.eesubmit/eesubmit/main/./linuxInstall.bash $1 ;;
+        ~/.eesubmit/main/./linuxInstall.bash $1 ;;
     3 )
-	~/.eesubmit/eesubmit/main/./windowsInstall.bash $1 ;;
+	~/.eesubmit/main/./windowsInstall.bash $1 ;;
     4 )
         echo "Other operating systems are not yet supported." ;;
 esac
