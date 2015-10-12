@@ -55,13 +55,13 @@ else
     echo "eesubmit: pdfkit installation complete"
     
     echo "eesubmit: Saving your EE server username locally..."
-    ./install.bash
+    ./~/.eesubmit/eesubmit/main/install.bash
     echo "eesubmit: EE server usernam saved"
 
     echo "eesubmit: Adding a shortcut for eesubmit (this may require your password)..."
-    if [ -f ~/.eesubmit-repo/eesubmit/main/submitting.bash ];
+    if [ -f ~/.eesubmit/eesubmit/main/submitting.bash ];
     then
-        sudo cp ~/.eesubmit-repo/eesubmit/main/submitting.bash /usr/bin/eesubmit
+        sudo cp ~/.eesubmit/eesubmit/main/submitting.bash /usr/bin/eesubmit
         echo "eesubmit: The shortcut has been created"
         echo "eesubmit: Installation complete!"
     else
