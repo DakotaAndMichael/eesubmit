@@ -59,9 +59,9 @@ else
     echo "eesubmit: EE server usernam saved"
 
     echo "eesubmit: Adding a shortcut for eesubmit (this may require your password)..."
-    if [ -f ~/.eesubmit/eesubmit/main/submitting.bash ];
+    if [ -f ~/.eesubmit-repo/eesubmit/main/submitting.bash ];
     then
-        sudo cp ~/.eesubmit/eesubmit/main/submitting.bash /usr/bin/eesubmit
+        sudo cp ~/.eesubmit-repo/eesubmit/main/submitting.bash /usr/bin/eesubmit
         echo "eesubmit: The shortcut has been created"
         echo "eesubmit: Installation complete!"
     else
