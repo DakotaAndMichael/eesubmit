@@ -13,6 +13,7 @@ read os
 
 case $os in
     1 )
+        chmod 777 macInstall.bash
         ./macInstall.bash $1 ;;
     2 )
         ./linuxInstall.bash $1 ;;
