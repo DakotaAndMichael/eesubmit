@@ -57,6 +57,9 @@ else
     echo "Adding a shortcut for eesubmit (this may require your password)..."
     if [ -f ~/.eesubmit/eesubmit/main/submitting.bash ];
     then
+        mkdir -p ~/.eesubmit
+        cd ~/.eesubmit
+        git clone https://github.com/DakotaAndMichael/eesubmit.git
         sudo cp ~/.eesubmit/eesubmit/main/submitting.bash /usr/bin/eesubmit
         echo "The shortcut has been created"
         echo "Installation complete!"
